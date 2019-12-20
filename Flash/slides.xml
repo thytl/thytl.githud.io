@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flash_parameters>
+    <preferences>
+        <golbal>
+            <basic_property movieWidth="500" movieHeight="500" decoration="res/jumping_line_1.swf" html_title="Title" loadStyle="Bar" hideAdobeMenu="false" anvsoftMenu="false" photoDynamicShow="true" enableURL="true" transitionArray=""/>
+            <title_property photoTitle="false" photoTitleX="5" photoTitleY="5" photoTitleSize="15" photoTitleFont="Verdana" photoTitleColor="0xffffff"/>
+            <music_property path="" stream="true" loop="true"/>
+            <photo_property topPadding="0" bottomPadding="0" leftPadding="0" rightPadding="0"/>
+            <properties enable="true" backgroundColor="0xffffff" backgroundAlpha="30" cssText="a:link{text-decoration: underline;} a:hover{color:#ff0000; text-decoration: none;} a:active{color:#0000ff;text-decoration: none;} .blue {color:#0000ff; font-size:15px; font-style:italic; text-decoration: underline;} .body{color:#ff5500;font-size:20px;}" align="top"/>
+        </golbal>
+        <thumbnail>
+            <basic_property showPrview="true" prviewWidth="100" prviewHeight="75" lineColor="0xffffff" numberColor="0xffffff" hovrColor="0xff0000" prviewBorderColor="0xffffff"/>
+        </thumbnail>
+    </preferences>
+    <album>
+        <slide  d_URL="slides/5.jpg" transition="29" panzoom="1" URLTarget="0" phototime="3" url="#" title="04" width="500px" height="500px"/>
+        <slide  d_URL="slides/1.jpg" transition="29" panzoom="1" URLTarget="0" phototime="3" url="#" title="01" width="500px" height="500px"/>
+        <slide  d_URL="slides/2.jpg" transition="29" panzoom="1" URLTarget="0" phototime="3" url="#" title="01" width="500px" height="500px"/>
+        <slide  d_URL="slides/3.jpg" transition="29" panzoom="1" URLTarget="0" phototime="3" url="#" title="02" width="500px" height="500px"/>
+        <slide  d_URL="slides/4.jpg" transition="29" panzoom="1" URLTarget="0" phototime="3" url="#" title="03" width="500px" height="500px"/>
+        <slide  d_URL="slides/6.jpg" transition="29" panzoom="1" URLTarget="0" phototime="3" url="#" title="03" width="500px" height="500px"/>
+        <slide  d_URL="slides/7.jpg" transition="29" panzoom="1" URLTarget="0" phototime="3" url="#" title="03" width="500px" height="500px"/>
+          
+    </album>
+</flash_parameters>

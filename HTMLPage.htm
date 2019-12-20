@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>quanlydanhba</title>
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-repeat: no-repeat;
+}
+</style>
+<style type="text/css">
+#slideCont {
+ 	border:solid 1px #000;
+	 text-align:center;
+}
+
+#slideCont img {
+ 	margin: 5px;
+}
+</style>
+
+<script type="text/javascript" language="javascript" src="jquery.js"></script>
+		<script type="text/javascript" language="javascript" src="jquery.carouFredSel-2.1.3.js"></script>
+		<script type="text/javascript" language="javascript">
+			$(function($) {
+				$('ul#basic_config').carouFredSel();
+				$('ul#user_interaction').carouFredSel({
+					auto: false,
+					prev: "#prev",
+					next: "#next"
+				});
+			});
+		</script>
+		
+		<style type="text/css" media="all">
+			html, body {
+				padding: 0;
+				margin: 0;
+				height: 100%;
+			}
+			body, div, p {
+				font-family: Arial, Helvetica, Verdana;
+				color: white;
+			}
+			h1 {
+				font-size: 80px;
+			}
+			a, a:link, a:active, a:visited {
+				color: black;
+				text-decoration: underline;
+			}
+			a:hover {
+				color: #999;
+			}
+			#wrapper {
+				background-color: black;
+				width: 600px;
+				margin: auto;
+				min-height: 100%;
+			}
+			#content {
+				padding: 50px;
+			}
+	
+			.list_carousel {
+				margin: 50px 0 0 60px;
+			}
+			.list_carousel ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+			}
+			.list_carousel li {
+				font-size: 40px;
+				color: #666;
+				text-align: center;
+				border: 5px solid #ccc;
+				width: 50px;
+				height: 50px;
+				padding: 0;
+				margin: 6px;
+				display: block;
+				float: left;
+			}
+			.clearfix {
+				float: none;
+				clear: both;
+			}
+			#prev {
+				margin-left: 10px;
+			}
+			#next {
+				float: right;
+				margin-right: 90px;
+			}
+        </style>
+		<style type="text/css">
+#slideCont {
+ 	border:solid 1px #000;
+	 text-align:center;
+}
+
+#slideCont img {
+ 	margin: 5px;
+}
+        </style>
+
+<link href="Style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+    .style5
+    {
+        width: 100%;
+    }
+</style>
+</head>
+<script type="text/javascript">
+
+/* 
+  -----------------------------------------------
+   Streaming banners - v.1
+   (c) 2006 www.haan.net
+   You may use this script but please leave the credits on top intact.
+   Please inform us of any improvements made.
+   When usefull we will add your credits.
+  ------------------------------------------------ */
+<!--
+
+function clip() {
+ 	// width of the banner container
+ 	var contWidth = 425;
+ 	// height of the banner container
+ 	var contHeight = 90;
+
+ 	var id1 = document.getElementById('slideA');
+ 	var id2 = document.getElementById('slideB');
+
+ 	id1.style.left = parseInt(id1.style.left)-1 + 'px';
+ 	
+ 	document.getElementById('slideCont').style.width = contWidth + "px";
+ 	document.getElementById('slideCont').style.clip = 'rect(auto,'+ contWidth +'px,' + contHeight +'px,auto)';
+ 	id2.style.display = '';
+ 	if(parseFloat(id1.style.left) == -(contWidth)) 	{
+ 		id1.style.left = '0px';
+ 	}
+ 	setTimeout(clip,25)
+}
+
+// Multiple onload function created by: Simon Willison
+// http://simonwillison.net/2004/May/26/addLoadEvent/
+function addLoadEvent(func) {
+  var oldonload = window.onload;
+  if (typeof window.onload != 'function') {
+    window.onload = func;
+  } else {
+    window.onload = function($) {
+      if (oldonload) {
+        oldonload();
+      }
+      func();
+    }
+  }
+}
+
+addLoadEvent(function($) {
+  clip();
+});
+//-->
+</script>
+<link href="Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table width="100%px" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <th height="122px" valign="top">
+	<table width="100%" height="84" border="0" cellpadding="0" cellspacing="0">
+      <tr bgcolor="#FFFF00">
+        <th width="31%" scope="col" class="style5"><div class="list_carousel" align="center"  valign="top" >
+					<ul id="basic_config">
+						<li><img src="imageQCao/4NokiaG14.jpg" width="100px" height="100px" /></li>
+						<li><img src="imageQCao/5DroidIronmanEdition.jpg" width="100px" height="100px" border="0" usemap="#Map" /></li>
+						<li><img src="imageQCao/9livetheexperience.jpg" width="100px" height="100px" /></li>
+						<li><img src="imageQCao/14SamsungGalaxyS.jpg" width="100px" height="100px" /></li>
+						<li><img src="imageQCao/19SonyEricssonG900.jpg" width="100px" height="100px" /></li>
+						<li><img src="imageQCao/22MobileAdStyleWallpaper.jpg" width="100px" height="100px" /></li>
+						<li><img src="imageQCao/23iPhoneMagicofCOLORS.jpg" width="100px" height="100px" /></li>
+						<li><img src="imageQCao/24DoTheMusic.jpg" width="100px" height="100px" /></li>
+						<li><img src="imageQCao/25FreshiPhone.jpg" width="100px" height="100px" /></li>
+						<li><img src="imageQCao/28IPhone3Warmversion.jpg" width="100px" height="100px" /></li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+                </th>
+      </tr>
+    </table></th>
+  </tr>
+  <tr>
+   <th>&nbsp;</th>
+  </tr>
+</table>
+
+<map name="Map" id="Map"><area shape="rect" coords="38,97,47,106" href="#" /></map></body>
+</html>
